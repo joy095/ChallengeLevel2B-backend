@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://challenge-level2-b-frontend.vercel.app",
   })
 );
 
