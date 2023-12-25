@@ -13,7 +13,7 @@ router.route("/").get(getAllResturant).post(createNewRestaurant);
 
 router
   .route("/:id")
-  .patch(updateRestaurant)
+  .post(updateRestaurant)
   .delete(deleteRestaurant)
   .get(getRestaurantProfile);
 

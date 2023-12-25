@@ -33,7 +33,7 @@ const createNewRestaurant = asyncHandler(async (req, res) => {
 });
 
 const updateRestaurant = asyncHandler(async (req, res) => {
-  const { id } = req.body;
+  const { id } = req.params;
 
   // Does the user exist to update?
   const restaurant = await Restaurant.findById(id).exec();
