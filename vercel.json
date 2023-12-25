@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "./index.js",
+            "dest": "/",
             "methods": [
                 "GET",
                 "POST",
@@ -19,7 +19,7 @@
                 "OPTIONS"
             ],
             "headers": {
-                "Access-Control-Allow-Origin": "*"
+                "Access-Control-Allow-Origin": "https://challenge-level2-b-frontend.vercel.app"
             }
         }
     ]
